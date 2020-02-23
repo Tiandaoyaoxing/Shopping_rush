@@ -8,7 +8,7 @@ import time
 
 
 def login():
-    # 打开淘宝登录页，并进行扫码登录
+    # 打开京东登录页，并进行扫码登录
     browser.get("https://www.jd.com/")
     time.sleep(3)
     if browser.find_element_by_link_text("你好，请登录"):
